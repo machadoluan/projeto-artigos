@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Lexend;
+    text-decoration: none;
+}
+
+header {
+    background: rgba(103, 59, 230, 1);
+    box-shadow: 0px 10px 31px -9px rgba(0, 0, 0, 0.56);
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+header .infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .infos .logo h1 {
+    Color: white;
+}
+
+header .infos .nav a {
+    Color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header .infos .nav a:hover {
+    color: hsl(0deg 0% 76.48%);
+}
+
+header .titulo h1 {
+    font-size: 19px;
+    color: white;
+    font-weight: 400
+}
+
+header .barra-pesquisa input {
+    width: 100%;
+    padding: 20px 10px;
+    background: hsla(0, 0%, 100%, .2);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .03);
+    color: white;
+    font-weight: 200
+}
+
+header .barra-pesquisa input::placeholder {
+    color: white;
+    font-weight: 200;
+}
+
+
+
+
+
+main .container {
+    width: 76%;
+    height: auto;
+    background: white;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 25px;
+    border: 2px solid #d1d1d167;
+    transition: all .3s ease-in-out;
+}
+
+main .container:hover {
+    cursor: pointer;
+    border: 1px solid rgba(103, 59, 230, 1);
+    transition: all .3s ease-in-out;
+}
+
+main .container:hover p {
+    color: white;
+}
+
+main .container .status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+main .container .status p {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    color: black;
+}
+
+main .container .status i {
+    font-size: 17px;
+    color: var(--blue-dark);
+}
+
+main .container .content h3 {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 23px;
+    color: var(--title);
+}
+
+main .container .content p {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: #555555;
+    margin-top: 12px;
+}
+
+
+footer {
+    width: 76%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+footer .titulo p{
+    font-size: 16px;
+     padding-bottom: 5px;
+}
+footer .redes{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+footer .redes i{
+    font-size: 20px;
+    transition: transform 500ms;
+}
+footer .redes i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: rgba(103, 59, 230, 1);
+}
